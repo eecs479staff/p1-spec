@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: spec
+latex: true
 ---
 
 # Quantum Circuit Simulator
@@ -40,7 +41,7 @@ These are the following gates supported by the LQ3K simulator:
 
 The LQ3K does **NOT** support arbitrary measurements. The only way to measure a circuit is to run `simulate_run()` on an object after composing the circuit. This will automatically measure every qubit in the circuit at the end of computation and return the results.
 
-The `simulate_run()` function takes in a `numpy.array` as input. The simulator follows the same ordering conventions as presented in lecture, i.e. index N holds the probability amplitude of \|N>. For example, in a 2-qubit system the state \|q1q0> = a\|00> + b\|01> + c\|10> + d\|11> is represented by the numpy array `[a, b, c, d]`.
+The `simulate_run()` function takes in a `numpy.array` as input. The simulator follows the same ordering conventions as presented in lecture, i.e. index N holds the probability amplitude of $$\ket N$$. For example, in a 2-qubit system the state $$\ket{q_1q_0} = a\ket{00} + b\ket{01} + c\ket{10} + d\ket{11}$$ is represented by the numpy array `[a, b, c, d]`.
 
 ## Testing
 
