@@ -1,0 +1,2 @@
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QX\nY\nZ\nS\nS dag (complex conjugate of S)\nT\nT dag (complex conjugate of T)\nHadamard (H)\nSWAP\nControlled Not (CX)\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QIf any invalid input is provided, your code must raise an \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q exception.\\E$"}
