@@ -91,13 +91,13 @@ Swap is easier to implement if the qubits being swapped are adjacent. In that ca
 
 Swapping non-adjacent qubits can be implemented through multiple swaps of adjacent qubits. E.g. swapping `[0,2]` can be done by swapping `[0,1]`, then `[1,2]`, then `[0,1]` again.
 
-**TODO: INSERT IMAGE HERE**
+![Deconstructing non-adjacent SWAP gates into multiple adjacent SWAP gates](assets/images/swap.png)
 
 ## CNOT
 
 As with SWAP, CNOT is easiest when the bits are adjacent (allowing for a simple Kronecker products between Identity matrices and the 4x4 CNOT matrix described in lecture). For non-adjacent qubits, SWAP can be used to move one of the qubits to be adjacent, and then swapped back after the CNOT is applied.
 
-**TODO: INSERT IMAGE HERE**
+![Deconstructing non-adjacent CNOT gates into SWAP gates surrounding a CNOT](assets/images/cnot.png)
 
 ## Applying multiple gates
 
